@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS user (
 -- =====================================================
 CREATE TABLE IF NOT EXISTS mahasiswa (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    nim VARCHAR(20) NOT NULL UNIQUE,
+    nim VARCHAR(20) NOT NULL,
     nama VARCHAR(100) NOT NULL,
     program_studi VARCHAR(60) NOT NULL,
     semester TINYINT NOT NULL DEFAULT 1,
@@ -45,4 +45,4 @@ CREATE TABLE IF NOT EXISTS mahasiswa (
 -- =====================================================
 INSERT INTO user (username, nama, password, hakakses) VALUES
 ('admin',  'Administrator',      MD5('admin123'),  'admin'),
-('dosen', 'Asih Winantu',   MD5('dosen123'),  'dosen')
+('dosen', 'Asih Winantu',   MD5('dosen123'),  'dosen');
