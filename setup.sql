@@ -45,7 +45,4 @@ CREATE TABLE IF NOT EXISTS mahasiswa (
 -- =====================================================
 INSERT INTO user (username, nama, password, hakakses) VALUES
 ('admin',  'Administrator',      MD5('admin123'),  'admin'),
-('dosen', 'Asih Winantu',   MD5('dosen123'),  'dosen'),
-
-
-
+('dosen', 'Asih Winantu',   MD5('dosen123'),  'dosen')

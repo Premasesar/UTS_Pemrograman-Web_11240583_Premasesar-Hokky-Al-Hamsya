@@ -124,7 +124,7 @@
         <form method="post" action="loginsubmit.php" class="text-start">
             <div class="mb-3">
                 <label class="form-label fw-bold">USERNAME</label>
-                <input name="username" type="text" class="form-control" placeholder="Masukkan username admin" required>
+                <input name="username" type="text" class="form-control" placeholder="Masukkan username" required>
             </div>
             <div class="mb-4">
                 <label class="form-label fw-bold">PASSWORD</label>
